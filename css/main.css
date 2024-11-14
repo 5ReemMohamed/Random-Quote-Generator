@@ -1,0 +1,57 @@
+section{
+    background-color: #6f8e4f;
+}
+main section .quote{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 20px;
+    max-width: 85%;
+}
+h1{
+    font-size: 4.5rem;
+    font-family: "Cookie", cursive;
+    margin-bottom: 20px;
+    color: #654520;
+}
+p,span{
+    font-size: 1.1rem;
+    color:#705C53;
+    font-family: "Baskervville", serif;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+span{
+    font-style: italic;
+}
+button{
+    background-color: #6f8e4f;
+    border: 1px solid #6f8e4f;
+    border-radius: 5px;
+    color: white;
+    font-family: "Baskervville", serif;
+    outline: none;
+    padding: 10px 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    transition: all .5s;
+}
+button:hover{
+    background-color: transparent;
+    color:#654520 ;
+}
+i{
+    color: #654520;
+}
+@media screen and (min-width:991px) {
+    main section .quote{
+        max-width: 50%;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+    span{
+        font-size: 1.2rem;
+    }
+}
